@@ -1,0 +1,3 @@
+# The Cost of Error
+
+**The Diagnosis:** Disease is Stagnation...

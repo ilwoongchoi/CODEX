@@ -1,0 +1,3 @@
+# The 128-Type Matrix
+
+**The Grid:** Personality is not a choice...

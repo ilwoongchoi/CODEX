@@ -1,0 +1,14 @@
+
+:root { --bg: #ffffff; --ink: #000000; --accent: #ff3300; --gray: #f0f0f0; }
+body { background: var(--bg); color: var(--ink); font-family: 'Courier New', Courier, monospace; margin: 0; display: flex; }
+.sidebar { width: 280px; background: var(--gray); height: 100vh; position: fixed; padding: 40px 20px; border-right: 2px solid var(--ink); overflow-y: auto; }
+.main-content { margin-left: 320px; padding: 60px 100px; max-width: 900px; }
+h1 { border-bottom: 4px solid var(--ink); padding-bottom: 20px; margin-bottom: 30px; }
+h2 { color: var(--accent); margin-top: 40px; margin-bottom: 20px; }
+a { color: var(--ink); text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s; }
+a:hover { color: var(--accent); border-bottom: 1px solid var(--accent); }
+ul { padding-left: 0; list-style: none; }
+li { margin-bottom: 15px; padding-left: 20px; position: relative; }
+li:before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+.main-content > ul > li { font-size: 1.1em; }
+.footer-warning { margin-top: 80px; padding-top: 20px; border-top: 1px solid #ccc; font-size: 0.75em; color: #555; line-height: 1.4; text-align: center; }

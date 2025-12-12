@@ -1,0 +1,35 @@
+
+* { box-sizing: border-box; }
+/* SECURITY LAYERS */
+body { 
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    margin: 0; padding: 0; background: #fff; color: #111; 
+    font-family: 'Courier New', monospace; display: flex; flex-direction: row;
+}
+/* Allow selection only in search box */
+#searchInput { user-select: text; -webkit-user-select: text; }
+
+.sidebar {
+    min-width: 350px; max-width: 350px; background: #f4f4f4;
+    border-right: 2px solid #000; padding: 20px; height: 100vh; overflow-y: auto;
+}
+.main-content {
+    flex-grow: 1; padding: 50px; height: 100vh; overflow-y: auto;
+}
+a { text-decoration: none; color: #000; cursor: pointer; }
+.sidebar ul li { border-bottom: 1px solid #ddd; }
+.sidebar ul li a { display: block; padding: 10px; background: #fff; }
+.sidebar ul li a:hover { background: #ffebeb; color: #D00000; font-weight: bold; }
+h1 { border-bottom: 4px solid #000; padding-bottom: 15px; margin-top: 0; }
+ul { padding-left: 0; list-style: none; }
+.submenu-title { margin-top: 20px; font-weight: bold; text-transform: uppercase; border-bottom: 2px solid #000; margin-bottom: 5px; padding-bottom: 5px; }
+.footer-warning { margin-top: 50px; padding: 15px; font-size: 0.8em; text-align: center; background: #eee; }
+.search-box { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid #000; }
+#searchInput { width: 100%; padding: 10px; border: 2px solid #000; }
+#searchResults { display: none; border: 1px solid #000; padding: 10px; margin-top: 5px; background: #fff; }
+.file-card { border: 2px solid #000; padding: 20px; background: #f9f9f9; text-align: center; margin-bottom: 20px; }
+.zenodo-btn { display: inline-block; background: #000; color: #fff; padding: 12px 25px; font-weight: bold; margin-top: 10px; }
+.zenodo-btn:hover { background: #D00000; }
+pre { white-space: pre-wrap; background: #fafafa; padding: 15px; border: 1px solid #eee; }
