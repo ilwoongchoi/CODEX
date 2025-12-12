@@ -247,7 +247,23 @@ def build():
 
     def get_sidebar(current_depth):
         prefix = "./" if current_depth == 0 else "../" * current_depth
-        html = f"""<div class="search-box"><input type="text" id="searchInput" placeholder="SEARCH..." onkeyup="runSearch()"><div id="searchResults"></div></div><h3>SYSTEM INDEX</h3><ul><li><a href='{prefix}index.html'>[ HOME ]</a></li></ul>"""
+        html = f"""
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="SEARCH..." onkeyup="runSearch()">
+            <div id="searchResults"></div>
+        </div>
+        
+        <h3>EXTERNAL LINKS</h3>
+        <ul>
+            <li><a href="https://iwchoikr.substack.com/p/mankind-has-deceived-itself-in-eachother" target="_blank">📄 SUBSTACK (MANIFESTO)</a></li>
+            <li><a href="https://www.researchgate.net/profile/Ilwoong-Choi-2" target="_blank">🔬 RESEARCHGATE</a></li>
+            <li><a href="https://zenodo.org/communities/gabaandglutamate/" target="_blank">💾 ZENODO (DATA)</a></li>
+        </ul>
+        <hr>
+
+        <h3>SYSTEM INDEX</h3>
+        <ul><li><a href='{prefix}index.html'>[ HOME ]</a></li></ul>
+        """
         
         for cat, subfolders in sorted(site_structure.items()):
             html += f"<br><strong>{cat.upper().replace('-', ' ')}</strong>"
