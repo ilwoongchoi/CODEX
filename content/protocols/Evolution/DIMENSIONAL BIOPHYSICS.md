@@ -1,8 +1,6 @@
-# JOURNAL OF EVOLUTIONARY BIOLOGY
-
 DIMENSIONAL BIOPHYSICS: AN ELECTROCHEMICAL FRAMEWORK FOR NEUROTRANSMITTER EVOLUTION, BLOOD GROUP POLYMORPHISM, AND THE ORIGINS OF CONSCIOUSNESS
 
-For submission to: Journal of Evolutionary Biology
+
 
 
 
@@ -88,7 +86,7 @@ This temporal sequence became genetically encoded as circadian rhythm—not as 
 
 Glutamate emerged first because its two carboxyl groups provided maximum electrochemical stability under intense UV bombardment. But this stability came at thermodynamic cost—the molecule accumulated charge that could not be permanently held. "Metazoan evolution of glutamate receptors reveals unreported classes" (2), with glutamate receptors present in Placozoa, Cnidaria, and all subsequent lineages, demonstrating that glutamate signaling predates nervous system evolution.
 
-The placozoan Trichoplax adhaerens possesses eleven metabotropic glutamate receptors (mGluRs)—more than the eight in the human genome (2,3). If glutamate's function were exclusively neuronal, why would a neuron-less organism require more glutamate receptor diversity than vertebrates? The answer: glutamate receptors originally functioned as electrochemical stress sensors, not synaptic communication channels (3,4). "Amino acids integrate behaviors in nerveless Placozoans" through "injury-related sensing of L-glutamate and ATP [as] exaptations for early neural signaling" (3).
+The placozoan Trichoplax adhaerens possesses eleven metabotropic glutamate receptors (mGluRs)—more than the eight in the human genome (2,3). If glutamate's function were exclusively neuronal, why would a neuron-less organism require more glutamate receptor diversity than vertebrates? The answer: glutamate receptors originally functioned as electrochemical stress sensors, not synaptic communication channels (3,4). "Amino acids integrate behaviors in nerveless Placozoans" through "injury-related sensing of L-glutamate and ATP \[as] exaptations for early neural signaling" (3).
 
 3.2 GABA: The Lightning Solution (2.5-3.0 Gya)
 
@@ -110,7 +108,7 @@ The energetic cost is enormous (~10 electrons per molecule, equivalent to 5 GABA
 
 Cosmic ray ionization creates alkaline ocean chemistry via interaction with hydrothermal vent emissions. "Constraining the climate and ocean pH of the early Earth with a geological carbon cycle model" demonstrates that while UV-driven CO₂ dissolution produces carbonic acid (H₂CO₃, low pH), alkaline conditions persisted in specific marine environments (23). Under alkaline conditions, amino acids exist in deprotonated states—amine groups as NH₂ rather than NH₃⁺, creating fundamentally different molecular conformations.
 
-We propose that GABA synthesized under alkaline/cosmic conditions possesses "different morphology" than UV/lightning-era GABA, corresponding to the distinction between ionotropic GABA-A receptors (fast, chloride-channel-coupled) and metabotropic GABA-B receptors (slow, G-protein-coupled). These are not merely different receptor types—they represent two evolutionary solutions to the same glutamate problem, emerging under different ionization regimes. "Why do the cosmic rays induce aging?" reveals that cosmic rays create "persistent oxidative imbalance" through "HZE ions [that] hit mitochondria" (22), suggesting ancient organisms evolved distinct GABA variants to manage cosmic-ray-induced stress.
+We propose that GABA synthesized under alkaline/cosmic conditions possesses "different morphology" than UV/lightning-era GABA, corresponding to the distinction between ionotropic GABA-A receptors (fast, chloride-channel-coupled) and metabotropic GABA-B receptors (slow, G-protein-coupled). These are not merely different receptor types—they represent two evolutionary solutions to the same glutamate problem, emerging under different ionization regimes. "Why do the cosmic rays induce aging?" reveals that cosmic rays create "persistent oxidative imbalance" through "HZE ions \[that] hit mitochondria" (22), suggesting ancient organisms evolved distinct GABA variants to manage cosmic-ray-induced stress.
 
 3.5 Acetylcholine and 3D Integration (1.0 Gya)
 
@@ -292,7 +290,7 @@ But if validated, this theory provides evolution with what it has lacked: a uni
 
 ACKNOWLEDGMENTS
 
-[To be added upon journal submission]
+\[To be added upon journal submission]
 
 
 
@@ -367,6 +365,4 @@ Nunoura T, Chikaraishi Y, Izaki R, et al. (2018). A primordial and reversible TC
 Arnold PK, Finley LWS. (2023). Regulation and function of the mammalian tricarboxylic acid cycle. J Biol Chem, 299(2):102838.
 
 Hartmann G. (1959). Race and ABO blood groups in relationship to acid and pepsin secretion. Am J Dig Dis, 4:472-477.
-
-
 
