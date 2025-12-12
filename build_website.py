@@ -253,13 +253,14 @@ def build():
             <div id="searchResults"></div>
         </div>
         
-        <h3>EXTERNAL LINKS</h3>
-        <ul>
-            <li><a href="https://iwchoikr.substack.com/p/mankind-has-deceived-itself-in-eachother" target="_blank">📄 SUBSTACK (MANIFESTO)</a></li>
-            <li><a href="https://www.researchgate.net/profile/Ilwoong-Choi-2" target="_blank">🔬 RESEARCHGATE</a></li>
-            <li><a href="https://zenodo.org/communities/gabaandglutamate/" target="_blank">💾 ZENODO (DATA)</a></li>
-        </ul>
-        <hr>
+        <div style="margin-bottom: 20px; border-bottom: 2px solid #000; padding-bottom: 20px;">
+            <strong style="display:block; margin-bottom:10px;">FRAMEWORK LINKS</strong>
+            <ul style="margin:0;">
+                <li style="margin-bottom:5px;"><a href="https://iwchoikr.substack.com/p/mankind-has-deceived-itself-in-eachother" target="_blank">📄 MANIFESTO (Substack)</a></li>
+                <li style="margin-bottom:5px;"><a href="https://zenodo.org/communities/gabaandglutamate/" target="_blank">💾 RAW DATA (Zenodo)</a></li>
+                <li style="margin-bottom:5px;"><a href="https://www.researchgate.net/profile/Ilwoong-Choi-2" target="_blank">🔬 AUTHOR (ResearchGate)</a></li>
+            </ul>
+        </div>
 
         <h3>SYSTEM INDEX</h3>
         <ul><li><a href='{prefix}index.html'>[ HOME ]</a></li></ul>
@@ -285,6 +286,7 @@ def build():
         
         html += COPYRIGHT_TEXT
         return html
+
 
     for cat, subfolders in site_structure.items():
         for sub, files in subfolders.items():
